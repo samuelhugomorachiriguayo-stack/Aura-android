@@ -44,7 +44,7 @@ jobs:
           git clone --depth 1 --branch b10516 \
             https://github.com/ggml-org/llama.cpp.git /tmp/llama.cpp
 
-          test "$(git -C /tmp/llama.cpp rev-parse HEAD)" = "b95502b"
+          test "$(git -C /tmp/llama.cpprev-parse--verify head)" rev-parse HEAD)" = "b95502b"
 
       - name: Preparar proyecto Android
         run: |
